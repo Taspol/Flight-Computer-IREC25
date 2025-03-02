@@ -9620,24 +9620,24 @@
 		)
 		(uuid "fec8ad05-0171-40b8-963f-fab94cec9fbe")
 	)
-	(global_label "GNSS_Reset"
-		(shape output)
-		(at 223.52 57.15 180)
+	(global_label "SX1262_MOSI"
+		(shape input)
+		(at 269.24 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "01b68721-e031-4932-bcaa-00e62c37dcd5")
+		(uuid "0dd2f52e-43cc-43aa-ac3b-df0d050ddef4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.5988 57.15 0)
+			(at 280.3043 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9655,6 +9655,28 @@
 		(uuid "0f9bfdd8-0913-4004-ac83-1b5445c74b06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 66.0551 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BMI088_GYRO_CS"
+		(shape input)
+		(at 269.24 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "1374d29e-4cb9-49f1-80d1-1e586a212715")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.7595 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9774,6 +9796,28 @@
 			)
 		)
 	)
+	(global_label "SX1262_MISO"
+		(shape input)
+		(at 269.24 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "252ad0d9-ba8a-44c4-adcf-4f31cc473654")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.3043 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "W25Q_WP"
 		(shape output)
 		(at 223.52 67.31 180)
@@ -9787,50 +9831,6 @@
 		(uuid "295ea51d-b3af-4bbd-911c-7ccaee91b289")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 215.2075 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SX1262_SCK"
-		(shape input)
-		(at 269.24 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "2a60bb7b-a4e7-42ba-bd34-05ce0ab95616")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.7117 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GNSS_SafeBoot"
-		(shape output)
-		(at 223.52 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right)
-		)
-		(uuid "2c5cb602-aa2f-4135-98a0-55a4b22552d5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.3129 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10060,28 +10060,6 @@
 			)
 		)
 	)
-	(global_label "ADXL375_CS"
-		(shape input)
-		(at 280.67 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right)
-		)
-		(uuid "547a20cc-51b1-4126-a1b2-f41a09aafabb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.013 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TMP275_ALERT"
 		(shape output)
 		(at 269.24 87.63 0)
@@ -10104,7 +10082,7 @@
 			)
 		)
 	)
-	(global_label "SX1262_MISO"
+	(global_label "GNSS_TX"
 		(shape input)
 		(at 269.24 138.43 0)
 		(fields_autoplaced yes)
@@ -10114,31 +10092,9 @@
 			)
 			(justify left)
 		)
-		(uuid "56d97b4f-1067-412c-a642-862810750936")
+		(uuid "5e3d33dd-e3f0-4e2a-8fa3-80925e290434")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.3043 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GNSS_RX"
-		(shape output)
-		(at 269.24 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "67040827-0756-432b-bb1d-40c3d7405808")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.2562 26.67 0)
+			(at 277.0445 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10192,28 +10148,6 @@
 			)
 		)
 	)
-	(global_label "SX1262_NSS"
-		(shape input)
-		(at 269.24 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "6f8913df-8514-45f7-90e3-73157b982921")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.7117 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBAT-"
 		(shape output)
 		(at 27.94 125.73 180)
@@ -10227,6 +10161,28 @@
 		(uuid "70cb281e-38c2-485f-8a91-d84792a9eb59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 21.6595 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GNSS_SafeBoot"
+		(shape output)
+		(at 223.52 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "74b5a380-2d45-4e08-aca5-c154a7bdfdcf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.3129 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10258,6 +10214,28 @@
 			)
 		)
 	)
+	(global_label "COMPANION_RX"
+		(shape input)
+		(at 269.24 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "7618303c-4d1b-4303-ba4d-a95356bce364")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.447 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BOOT0"
 		(shape output)
 		(at 80.01 76.2 180)
@@ -10280,6 +10258,28 @@
 			)
 		)
 	)
+	(global_label "GNSS_Reset"
+		(shape output)
+		(at 269.24 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "775ed2cc-381d-4c69-9ff0-5f450e941c05")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.1612 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWCLK"
 		(shape input)
 		(at 269.24 62.23 0)
@@ -10293,6 +10293,28 @@
 		(uuid "7837213e-e5af-420c-b897-bce898e2c1bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 275.6899 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GNSS_RX"
+		(shape output)
+		(at 269.24 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "82829120-2a7b-4690-94cc-67385083716e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.2562 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10364,6 +10386,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SX1262_SCK"
+		(shape input)
+		(at 269.24 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "8b6aa826-e898-4666-aee7-91ca26c7ac41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.7117 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10522,6 +10566,28 @@
 			)
 		)
 	)
+	(global_label "SX1262_NSS"
+		(shape input)
+		(at 269.24 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "a56e4b27-46a7-47d2-ba5c-abf90a55d857")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.7117 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "W25Q_SCK"
 		(shape input)
 		(at 115.57 106.68 0)
@@ -10544,7 +10610,7 @@
 			)
 		)
 	)
-	(global_label "ACC_MISO"
+	(global_label "SPI_MISO"
 		(shape output)
 		(at 269.24 102.87 0)
 		(fields_autoplaced yes)
@@ -10556,7 +10622,7 @@
 		)
 		(uuid "a94d5d79-de93-44e0-960b-f8dd194c6f58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.7641 102.87 0)
+			(at 277.3831 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10579,28 +10645,6 @@
 		(uuid "ac912acc-ef6d-4ff7-81f2-f84540b8f8e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 31.6805 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BMI088_GYRO_CS"
-		(shape input)
-		(at 269.24 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "acd541b7-4110-4069-8466-9d795b1e1a19")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.7595 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10689,28 +10733,6 @@
 		(uuid "b59c1180-86b0-4b7c-86de-314978029d19")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 170.592 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ACC_SCLK"
-		(shape input)
-		(at 269.24 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "b8634e77-202f-48da-8706-92ec217bff9f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.8912 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10918,28 +10940,6 @@
 			)
 		)
 	)
-	(global_label "COMPANION_RX"
-		(shape input)
-		(at 269.24 140.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "d59cadf7-2aae-42dc-81e3-40511d55be6c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.447 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MS5607_MOSI"
 		(shape output)
 		(at 269.24 44.45 0)
@@ -11006,6 +11006,28 @@
 			)
 		)
 	)
+	(global_label "COMPANION_TX"
+		(shape output)
+		(at 269.24 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "db84e702-f14f-45af-b805-c9079286312f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.2353 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "W25Q_NSS"
 		(shape output)
 		(at 223.52 77.47 180)
@@ -11050,28 +11072,6 @@
 			)
 		)
 	)
-	(global_label "GNSS_TX"
-		(shape input)
-		(at 269.24 29.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "e2aecd9e-4b2a-4d89-a217-b33817fc9efd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.0445 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "W25Q_MOSI"
 		(shape output)
 		(at 223.52 82.55 180)
@@ -11112,6 +11112,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_SCLK"
+		(shape input)
+		(at 269.24 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "ea7a3cd2-f68f-45c1-8cd4-dd88dd9fabe9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.5102 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11222,28 +11244,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COMPANION_TX"
-		(shape output)
-		(at 223.52 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right)
-		)
-		(uuid "ed2a29ec-3125-435a-8a86-95892986ac0b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.5247 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
