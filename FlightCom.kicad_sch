@@ -9829,7 +9829,7 @@
 		(uuid d4f9e099-835e-4fa5-8e78-77e3fca72f1b)
 	)
 	(rectangle
-		(start 213.36 12.7)
+		(start 209.55 12.7)
 		(end 284.48 165.1)
 		(stroke
 			(width 0)
@@ -11204,7 +11204,7 @@
 			)
 		)
 	)
-	(global_label "ACC_MOSI"
+	(global_label "SPI_MOSI"
 		(shape input)
 		(at 269.24 105.41 0)
 		(fields_autoplaced yes)
@@ -11216,7 +11216,7 @@
 		)
 		(uuid "c50274ff-d9b5-4dac-9016-7061b1d1ec47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.7641 105.41 0)
+			(at 277.3831 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
