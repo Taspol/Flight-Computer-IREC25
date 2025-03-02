@@ -3789,16 +3789,6 @@
 		)
 		(uuid "8e9f9afc-e786-4e45-9dc0-ea3c7b19e957")
 	)
-	(text "C50 - C69\n"
-		(exclude_from_sim no)
-		(at 26.162 19.812 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "91a43621-48f6-46e1-a09c-0e72660d4b5f")
-	)
 	(text "SPI BUS (Independent slave conf)"
 		(exclude_from_sim no)
 		(at 147.32 69.342 0)
