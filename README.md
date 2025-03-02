@@ -1,6 +1,8 @@
+## Link for Pin out Stm32Cube IDE
+- https://drive.google.com/drive/folders/1xgfmS8LAHjObwQE3LNUNcHKHxMRXHLm3?usp=drive_link
 # Flight Computer
 ## Overview
-The Flight Computer is an embedded system designed for real-time data acquisition, processing, and communication in aerospace applications. It integrates multiple sensors and communication modules using an STM32 microcontroller, making it suitable for rocket and UAV applications.
+The Flight Computer is an embedded system designed for real-time data acquisition, processing, and communication in aerospace applications. It integrates multiple sensors and communication modules using an STM32 microcontroller, making it suitable for rocket flight.
 ## Features
 **EnvSensor**
   - ADXL375BCCZ-RL7 (High-G Accelerometer)
@@ -17,5 +19,7 @@ The Flight Computer is an embedded system designed for real-time data acquisitio
 
 **Flight Data Storage**
   -  KLM8G1GETF-B041(EMMC)
+
+
 
   
