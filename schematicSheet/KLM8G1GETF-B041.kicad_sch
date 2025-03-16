@@ -5412,7 +5412,7 @@
 			(uuid "f9140de5-c5b5-4489-88d7-630ca26dd745")
 		)
 		(instances
-			(project ""
+			(project "FlightCom"
 				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74/c935e9d5-c11d-480d-949a-176637a766d2"
 					(reference "R23")
 					(unit 1)
@@ -5935,7 +5935,7 @@
 			(uuid "a39abb1b-7c59-420b-93e8-a5b6bc341787")
 		)
 		(instances
-			(project ""
+			(project "FlightCom"
 				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74/c935e9d5-c11d-480d-949a-176637a766d2"
 					(reference "U14")
 					(unit 1)
@@ -6000,7 +6000,7 @@
 			(uuid "c2e108af-659c-4e2a-bf67-b902a85eca1e")
 		)
 		(instances
-			(project ""
+			(project "FlightCom"
 				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74/c935e9d5-c11d-480d-949a-176637a766d2"
 					(reference "#PWR012")
 					(unit 1)
@@ -6670,7 +6670,7 @@
 			(uuid "9442a383-59fc-4f64-b4eb-75098822d91e")
 		)
 		(instances
-			(project ""
+			(project "FlightCom"
 				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74/c935e9d5-c11d-480d-949a-176637a766d2"
 					(reference "#PWR0102")
 					(unit 1)

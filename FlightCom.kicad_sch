@@ -10513,6 +10513,28 @@
 			)
 		)
 	)
+	(global_label "EMMC_RSTN"
+		(shape output)
+		(at 269.24 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "9ba4f5f6-4806-42ed-9f1b-a8a2d61e8a64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.0764 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SX1262_MOSI"
 		(shape input)
 		(at 223.52 107.95 180)
@@ -18135,7 +18157,7 @@
 		)
 	)
 	(sheet
-		(at 63.5 170.18)
+		(at 58.42 170.18)
 		(size 25.4 17.78)
 		(stroke
 			(width 0.1524)
@@ -18146,7 +18168,7 @@
 		)
 		(uuid "7ccf3189-8e25-4182-8eb9-169fe0909fd2")
 		(property "Sheetname" "SX1262"
-			(at 63.5 169.4684 0)
+			(at 58.42 169.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18155,10 +18177,10 @@
 			)
 		)
 		(property "Sheetfile" "schematicSheet/SX1262NEW.kicad_sch"
-			(at 57.15 189.484 0)
+			(at 55.88 189.738 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left top)
 			)
@@ -18172,7 +18194,7 @@
 		)
 	)
 	(sheet
-		(at 109.22 170.18)
+		(at 93.98 170.18)
 		(size 25.4 17.78)
 		(stroke
 			(width 0.1524)
@@ -18183,7 +18205,7 @@
 		)
 		(uuid "b24004bc-4f43-480a-bb87-150062de6500")
 		(property "Sheetname" "GNSS"
-			(at 109.22 169.4684 0)
+			(at 93.98 169.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18192,10 +18214,10 @@
 			)
 		)
 		(property "Sheetfile" "schematicSheet/ubox_with_stm32.kicad_sch"
-			(at 102.108 189.484 0)
+			(at 91.186 189.738 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left top)
 			)
@@ -18209,47 +18231,8 @@
 		)
 	)
 	(sheet
-		(at 148.59 140.97)
-		(size 25.4 17.78)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "bc1c57ac-7889-4f8b-a0cd-f69949dde62c")
-		(property "Sheetname" "Untitled Sheet"
-			(at 148.59 140.2584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 148.59 159.3346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FlightCom"
-				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 140.97 144.78)
+		(at 135.89 168.91)
 		(size 25.4 19.05)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -18259,7 +18242,7 @@
 		)
 		(uuid "c935e9d5-c11d-480d-949a-176637a766d2")
 		(property "Sheetname" "KLM8G1GETF-B041"
-			(at 140.97 144.0684 0)
+			(at 135.89 168.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18267,11 +18250,11 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "KLM8G1GETF-B041.kicad_sch"
-			(at 140.97 164.4146 0)
+		(property "Sheetfile" "schematicSheet/KLM8G1GETF-B041.kicad_sch"
+			(at 132.08 189.738 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left top)
 			)
@@ -18305,10 +18288,10 @@
 			)
 		)
 		(property "Sheetfile" "schematicSheet/sensors.kicad_sch"
-			(at 15.748 189.23 0)
+			(at 21.59 189.23 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left top)
 			)
