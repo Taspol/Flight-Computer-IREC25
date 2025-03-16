@@ -9743,6 +9743,28 @@
 			)
 		)
 	)
+	(global_label "EMMC_DATASTROBE"
+		(shape input)
+		(at 269.24 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "196936a4-8a4d-4079-a058-a002638153a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 283.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SX1262_RST"
 		(shape input)
 		(at 223.52 102.87 180)
@@ -10130,6 +10152,28 @@
 		(uuid "6949a801-47b5-4047-b842-ca37830df2bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 100.5568 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EMMC_DAT4"
+		(shape bidirectional)
+		(at 269.24 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "6fc46025-c5ac-4f74-83f9-7843e4fae2fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.685 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10645,28 +10689,6 @@
 			)
 		)
 	)
-	(global_label "EMMC_DAT5"
-		(shape bidirectional)
-		(at 269.24 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "bbbee35b-a2ad-4fe3-9c36-8fda04930a51")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.685 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB_DN"
 		(shape bidirectional)
 		(at 269.24 54.61 0)
@@ -10839,6 +10861,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EMMC_DAT5"
+		(shape bidirectional)
+		(at 269.24 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "cba6b498-e922-449b-83e9-958e66b19747")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.685 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11367,28 +11411,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EMMC_DAT4"
-		(shape bidirectional)
-		(at 269.24 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "fc28a98d-ac79-42d8-a2cc-cb0ed66941a2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.685 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -18182,6 +18204,44 @@
 			(project "FlightCom"
 				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 140.97)
+		(size 25.4 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bc1c57ac-7889-4f8b-a0cd-f69949dde62c")
+		(property "Sheetname" "Untitled Sheet"
+			(at 148.59 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 148.59 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FlightCom"
+				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74"
+					(page "5")
 				)
 			)
 		)
