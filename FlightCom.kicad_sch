@@ -11735,7 +11735,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 171.45 111.76 0)
 			(effects
 				(font
@@ -14298,7 +14298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3.3V"
 			(at 232.156 15.24 0)
 			(effects
 				(font
@@ -16195,7 +16195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3.3V"
 			(at 96.52 16.51 0)
 			(effects
 				(font
@@ -17705,7 +17705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 169.672 102.87 90)
 			(effects
 				(font
@@ -18107,7 +18107,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 75.946 115.062 90)
+			(at 76.2 111.76 90)
 			(effects
 				(font
 					(size 0.889 0.889)

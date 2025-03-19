@@ -4905,7 +4905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.87 44.45 0)
 			(effects
 				(font
@@ -5106,7 +5106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 176.53 62.23 0)
 			(effects
 				(font
@@ -5175,7 +5175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 95.25 44.45 0)
 			(effects
 				(font
@@ -5244,7 +5244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 91.44 44.45 0)
 			(effects
 				(font
@@ -5378,7 +5378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 80.01 44.45 0)
 			(effects
 				(font
@@ -5446,7 +5446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLMBG2JENB-B041_SAM"
+		(property "Footprint" "EMMC:KLMBG2JENB-B041_SAM"
 			(at 109.22 53.34 0)
 			(effects
 				(font
@@ -6233,7 +6233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 170.18 123.19 0)
 			(effects
 				(font
@@ -6434,7 +6434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 83.82 44.45 0)
 			(effects
 				(font
@@ -6503,7 +6503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 87.63 44.45 0)
 			(effects
 				(font
@@ -6838,7 +6838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.06 44.45 0)
 			(effects
 				(font
@@ -6907,7 +6907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 76.2 44.45 0)
 			(effects
 				(font
