@@ -18,7 +18,7 @@ The Flight Computer is an embedded system designed for real-time data acquisitio
   - SAM-M10Q (GNSS Module)
 
 **Flight Data Storage**
-  -  KLM8G1GETF-B041(EMMC)
+  - KLM8G1GETF-B041(EMMC)
 
 
 
