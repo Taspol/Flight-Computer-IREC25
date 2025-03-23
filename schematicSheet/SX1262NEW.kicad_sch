@@ -5,6 +5,265 @@
 	(uuid "56da5d45-a5dd-43c4-8607-d64f7119e40b")
 	(paper "A3")
 	(lib_symbols
+		(symbol "BMI-S-209-F:BMI-S-209-F"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J9"
+				(at 8.89 1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BMI-S-209-F"
+				(at 8.89 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Lora_shield:LAIRD_BMI-S-209-F"
+				(at -0.762 -9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Laird Technologies"
+				(at -0.508 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "7.0 mm"
+				(at 0.254 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at -1.016 -12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0.508 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/BMI-S-209-F/Laird/view-part/?ref=eda"
+				(at 0 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0.762 10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "N/A"
+				(at 0 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BMI-S-209-F/Laird/view-part/?ref=snap"
+				(at 0 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "BMI-S-209-F"
+				(at 0.508 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            RF Shield Frame 0.728 (18.50mm) X 1.156 (29.36mm) Surface Mount\n                        \n"
+				(at -0.254 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0.508 -8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Laird Technologies"
+				(at -0.254 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "BMI-S-209-F_0_0"
+				(rectangle
+					(start -7.62 2.54)
+					(end 7.62 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1828,131 +2087,6 @@
 				)
 			)
 		)
-		(symbol "S1711-46R:S1711-46R"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -7.62 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "S1711-46R"
-				(at -7.62 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "S1711-46R:HARWIN_S1711-46R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Harwin"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "3.65mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "S1711-46R_0_0"
-				(rectangle
-					(start -7.62 -2.54)
-					(end 7.62 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -2492,16 +2626,6 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 106.68) (xy 359.41 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23e32eb7-7e84-4301-8dc0-3eae7109b850")
-	)
-	(wire
-		(pts
 			(xy 129.54 105.41) (xy 129.54 160.02)
 		)
 		(stroke
@@ -2509,16 +2633,6 @@
 			(type default)
 		)
 		(uuid "26f43d6f-ddc8-4dec-8699-c5fec8a2d2a6")
-	)
-	(wire
-		(pts
-			(xy 321.31 147.32) (xy 311.15 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a22350d-b5bc-411f-8a5b-bf685f8b930d")
 	)
 	(wire
 		(pts
@@ -2752,16 +2866,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 127) (xy 309.88 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61eeb681-35f9-45c2-a191-57a1214c55fa")
-	)
-	(wire
-		(pts
 			(xy 172.72 105.41) (xy 172.72 109.22)
 		)
 		(stroke
@@ -2842,16 +2946,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 107.95) (xy 308.61 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7629be09-e894-42ba-9c5b-9382bd8db717")
-	)
-	(wire
-		(pts
 			(xy 58.42 215.9) (xy 64.77 215.9)
 		)
 		(stroke
@@ -2882,16 +2976,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 147.32) (xy 311.15 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "807cfd6d-b97c-42a1-b6a0-048e631a4a3e")
-	)
-	(wire
-		(pts
 			(xy 196.85 82.55) (xy 196.85 105.41)
 		)
 		(stroke
@@ -2919,16 +3003,6 @@
 			(type default)
 		)
 		(uuid "8aab5dd1-cb26-499e-9d11-0dc4f10257bb")
-	)
-	(wire
-		(pts
-			(xy 308.61 107.95) (xy 308.61 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e3e6cd4-89ea-4740-b0a7-bf2bfe54a200")
 	)
 	(wire
 		(pts
@@ -2992,6 +3066,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 163.83) (xy 309.88 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "973f7f54-483e-48c7-bd60-6b6626f07307")
+	)
+	(wire
+		(pts
 			(xy 134.62 144.78) (xy 171.45 144.78)
 		)
 		(stroke
@@ -3009,16 +3093,6 @@
 			(type default)
 		)
 		(uuid "9a67deb5-fd6d-4bee-9820-bb01503d5e14")
-	)
-	(wire
-		(pts
-			(xy 359.41 106.68) (xy 359.41 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cd53782-476c-40b6-b4c5-c4dff5ca0363")
 	)
 	(wire
 		(pts
@@ -3252,16 +3326,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 127) (xy 309.88 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d338fef6-9bf6-4d7f-9faf-ba0e270bb031")
-	)
-	(wire
-		(pts
 			(xy 144.78 82.55) (xy 144.78 86.36)
 		)
 		(stroke
@@ -3369,6 +3433,16 @@
 			(type default)
 		)
 		(uuid "eaf117c8-1f18-4837-914a-5955c8ba79c8")
+	)
+	(wire
+		(pts
+			(xy 320.04 163.83) (xy 309.88 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa56aba-be1c-43fa-83c9-eaa41df31243")
 	)
 	(wire
 		(pts
@@ -3510,7 +3584,7 @@
 		)
 		(uuid "d2c2a440-cf0a-49b5-94c3-a37ea1183a63")
 	)
-	(global_label "SX1262_DIO2"
+	(global_label "ANT_SW"
 		(shape input)
 		(at 129.54 190.5 270)
 		(fields_autoplaced yes)
@@ -3520,9 +3594,9 @@
 			)
 			(justify right)
 		)
-		(uuid "0807db7c-132b-4f89-a176-d3ddb5f5b21c")
+		(uuid "245e79e6-f31a-4235-97df-8f9f01bb4f7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 201.4373 90)
+			(at 129.54 197.5001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +3963,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 171.45 139.7 0)
 			(effects
 				(font
@@ -4130,114 +4204,6 @@
 		)
 	)
 	(symbol
-		(lib_id "S1711-46R:S1711-46R")
-		(at 331.47 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1963c0ab-bef0-4a3d-be11-2efe7efcc16c")
-		(property "Reference" "J3"
-			(at 340.36 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S1711-46R"
-			(at 340.36 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "shield:HARWIN_S1711-46R"
-			(at 331.47 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 331.47 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 331.47 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "8"
-			(at 331.47 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Harwin"
-			(at 331.47 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.65mm"
-			(at 331.47 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 331.47 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "SH1"
-			(uuid "9d49a13b-00eb-4c0a-b767-7ed8b0b6716c")
-		)
-		(instances
-			(project "FlightCom"
-				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74/7ccf3189-8e25-4182-8eb9-169fe0909fd2"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L_Small")
 		(at 185.42 105.41 90)
 		(unit 1)
@@ -4263,7 +4229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 185.42 105.41 0)
 			(effects
 				(font
@@ -4465,7 +4431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 234.95 105.41 0)
 			(effects
 				(font
@@ -4669,7 +4635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 105.41 242.57 0)
 			(effects
 				(font
@@ -4950,7 +4916,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 111.76 248.92 0)
 			(effects
 				(font
@@ -5020,7 +4986,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 64.77 220.98 0)
 			(effects
 				(font
@@ -5270,72 +5236,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 359.41 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56e13eba-dda9-452d-bd2c-f804577dbc67")
-		(property "Reference" "#PWR0113"
-			(at 359.41 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 359.41 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 359.41 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 359.41 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 359.41 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2693a228-32a1-456d-a064-3257208f0a28")
-		)
-		(instances
-			(project "FlightCom"
-				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74/7ccf3189-8e25-4182-8eb9-169fe0909fd2"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 64.77 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5418,7 +5318,7 @@
 				)
 			)
 		)
-		(property "Value" "36pF"
+		(property "Value" "39pF"
 			(at 218.4463 101.6 90)
 			(effects
 				(font
@@ -5426,7 +5326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 218.44 105.41 0)
 			(effects
 				(font
@@ -5495,7 +5395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 104.14 153.67 0)
 			(effects
 				(font
@@ -5565,7 +5465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 196.85 111.76 0)
 			(effects
 				(font
@@ -5635,7 +5535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 144.78 88.9 0)
 			(effects
 				(font
@@ -5738,114 +5638,6 @@
 			(project "FlightCom"
 				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74/7ccf3189-8e25-4182-8eb9-169fe0909fd2"
 					(reference "#PWR087")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "S1711-46R:S1711-46R")
-		(at 334.01 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65b04f4e-4ceb-4230-848d-c01d934f4135")
-		(property "Reference" "J5"
-			(at 342.9 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S1711-46R"
-			(at 342.9 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "shield:HARWIN_S1711-46R"
-			(at 334.01 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 334.01 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 334.01 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "8"
-			(at 334.01 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Harwin"
-			(at 334.01 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.65mm"
-			(at 334.01 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 334.01 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "SH1"
-			(uuid "93068d2f-eb6d-43ac-8e63-334039d3a287")
-		)
-		(instances
-			(project "FlightCom"
-				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74/7ccf3189-8e25-4182-8eb9-169fe0909fd2"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6000,72 +5792,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 309.88 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6fbd9543-b8af-446a-9526-4d4da3dfa707")
-		(property "Reference" "#PWR0111"
-			(at 309.88 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 309.88 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 309.88 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 309.88 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48f3f4fc-a237-45cd-86d2-8a044c053713")
-		)
-		(instances
-			(project "FlightCom"
-				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74/7ccf3189-8e25-4182-8eb9-169fe0909fd2"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 198.12 139.7 180)
 		(unit 1)
@@ -6093,7 +5819,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 198.12 139.7 0)
 			(effects
 				(font
@@ -6163,7 +5889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 128.27 88.9 0)
 			(effects
 				(font
@@ -6200,6 +5926,72 @@
 			(project "FlightCom"
 				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74/7ccf3189-8e25-4182-8eb9-169fe0909fd2"
 					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 309.88 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "748a1dc3-3952-493c-813b-2b119fd3da68")
+		(property "Reference" "#PWR035"
+			(at 309.88 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 309.88 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 309.88 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12a8e143-f07f-4d9e-a0c6-be9d1712fc7e")
+		)
+		(instances
+			(project "FlightCom"
+				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74/7ccf3189-8e25-4182-8eb9-169fe0909fd2"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6276,72 +6068,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 311.15 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86f46828-9bce-477c-b631-8ed869b693ff")
-		(property "Reference" "#PWR0112"
-			(at 311.15 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 311.15 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 311.15 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 311.15 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 311.15 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "336c852b-aa88-42e1-956e-50b06ca0e0b5")
-		)
-		(instances
-			(project "FlightCom"
-				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74/7ccf3189-8e25-4182-8eb9-169fe0909fd2"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 78.74 166.37 0)
 		(unit 1)
@@ -6369,7 +6095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 78.74 166.37 0)
 			(effects
 				(font
@@ -6637,7 +6363,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 246.38 180.34 0)
 			(effects
 				(font
@@ -6707,7 +6433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 172.72 111.76 0)
 			(effects
 				(font
@@ -6932,7 +6658,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 171.45 148.59 0)
 			(effects
 				(font
@@ -6975,114 +6701,6 @@
 		)
 	)
 	(symbol
-		(lib_id "S1711-46R:S1711-46R")
-		(at 382.27 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a25fcbb8-9e02-4e5e-9f94-66c91b0b853e")
-		(property "Reference" "J6"
-			(at 391.16 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S1711-46R"
-			(at 391.16 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "shield:HARWIN_S1711-46R"
-			(at 382.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 382.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "8"
-			(at 382.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Harwin"
-			(at 382.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.65mm"
-			(at 382.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 382.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "SH1"
-			(uuid "0fdaaee7-e493-492c-b5a2-69fd059ae938")
-		)
-		(instances
-			(project "FlightCom"
-				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74/7ccf3189-8e25-4182-8eb9-169fe0909fd2"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 185.42 135.89 90)
 		(unit 1)
@@ -7108,7 +6726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 185.42 135.89 0)
 			(effects
 				(font
@@ -7287,6 +6905,203 @@
 		)
 	)
 	(symbol
+		(lib_id "BMI-S-209-F:BMI-S-209-F")
+		(at 332.74 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad8cdd58-8af7-445a-ac55-ad86bd2e842a")
+		(property "Reference" "J9"
+			(at 341.63 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BMI-S-209-F"
+			(at 341.63 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Lora_shield:LAIRD_BMI-S-209-F"
+			(at 331.978 173.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 332.74 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Laird Technologies"
+			(at 332.232 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "7.0 mm"
+			(at 332.994 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 331.724 176.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 333.248 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BMI-S-209-F/Laird/view-part/?ref=eda"
+			(at 332.74 159.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 333.502 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 332.74 170.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BMI-S-209-F/Laird/view-part/?ref=snap"
+			(at 332.74 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BMI-S-209-F"
+			(at 333.248 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            RF Shield Frame 0.728 (18.50mm) X 1.156 (29.36mm) Surface Mount\n                        \n"
+			(at 332.486 159.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 333.248 172.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Laird Technologies"
+			(at 332.486 177.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "S6"
+			(uuid "e8212874-bbea-4024-b2dd-743a3a05d669")
+		)
+		(pin "S9"
+			(uuid "e88d00c2-d9cc-45d1-a209-8d405d2b5385")
+		)
+		(pin "S10"
+			(uuid "1190240a-5232-4355-8dde-e368fcd7c415")
+		)
+		(pin "S3"
+			(uuid "63aed3ba-736a-4d44-a367-145f63b7712a")
+		)
+		(instances
+			(project ""
+				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74/7ccf3189-8e25-4182-8eb9-169fe0909fd2"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 111.76 252.73 0)
 		(unit 1)
@@ -7379,7 +7194,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 97.79 248.92 0)
 			(effects
 				(font
@@ -7647,7 +7462,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 242.57 110.49 0)
 			(effects
 				(font
@@ -7715,7 +7530,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 143.51 105.41 0)
 			(effects
 				(font
@@ -7970,7 +7785,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 67.31 267.97 0)
 			(effects
 				(font
@@ -8170,7 +7985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 87.63 242.57 0)
 			(effects
 				(font
@@ -8213,114 +8028,6 @@
 		)
 	)
 	(symbol
-		(lib_id "S1711-46R:S1711-46R")
-		(at 332.74 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d889b3ca-6fa8-44b9-bc6a-3923fbeafdaa")
-		(property "Reference" "J4"
-			(at 341.63 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S1711-46R"
-			(at 341.63 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "shield:HARWIN_S1711-46R"
-			(at 332.74 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 332.74 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 332.74 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "8"
-			(at 332.74 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Harwin"
-			(at 332.74 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.65mm"
-			(at 332.74 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 332.74 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "SH1"
-			(uuid "d8324c04-203f-4b79-b69c-505197c53948")
-		)
-		(instances
-			(project "FlightCom"
-				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74/7ccf3189-8e25-4182-8eb9-169fe0909fd2"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 91.44 193.04 0)
 		(unit 1)
@@ -8347,7 +8054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.44 193.04 0)
 			(effects
 				(font
@@ -8483,7 +8190,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 161.29 93.98 0)
 			(effects
 				(font
@@ -8749,7 +8456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 185.42 82.55 0)
 			(effects
 				(font
@@ -8852,72 +8559,6 @@
 			(project "FlightCom"
 				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74/7ccf3189-8e25-4182-8eb9-169fe0909fd2"
 					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 308.61 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f68184ed-6e35-4a08-a0a6-9021e6245ae8")
-		(property "Reference" "#PWR0110"
-			(at 308.61 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 308.61 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 308.61 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 308.61 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6268e420-1900-495d-9b5a-5c12946d4c95")
-		)
-		(instances
-			(project "FlightCom"
-				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74/7ccf3189-8e25-4182-8eb9-169fe0909fd2"
-					(reference "#PWR0110")
 					(unit 1)
 				)
 			)

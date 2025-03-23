@@ -2292,12 +2292,6 @@
 		(uuid "efcd0091-1459-4fc8-a410-7c7123a9e50b")
 	)
 	(junction
-		(at 64.77 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4a63c1f-ae28-4652-a683-bcd88b49b547")
-	)
-	(junction
 		(at 111.76 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2328,6 +2322,10 @@
 	(no_connect
 		(at 69.85 45.72)
 		(uuid "5fc22e61-521c-4818-b6d8-e4a189449771")
+	)
+	(no_connect
+		(at 66.04 85.09)
+		(uuid "751e7165-a406-4ebc-bf79-7f7474de84f3")
 	)
 	(no_connect
 		(at 233.68 48.26)
@@ -2430,16 +2428,6 @@
 			(type default)
 		)
 		(uuid "05b0abe2-4e06-4b3c-8c8d-70cc5b1890d7")
-	)
-	(wire
-		(pts
-			(xy 64.77 85.09) (xy 64.77 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0687f05b-113f-4643-a7af-987ef8f71189")
 	)
 	(wire
 		(pts
@@ -2563,13 +2551,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 85.09) (xy 66.04 85.09)
+			(xy 85.09 69.85) (xy 87.63 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "226f9574-fd4a-456c-abfe-880f346b8836")
+		(uuid "26103052-9b14-4c11-abaa-0fde0818e05c")
 	)
 	(wire
 		(pts
@@ -2700,16 +2688,6 @@
 			(type default)
 		)
 		(uuid "3c965037-63c5-4cf0-89f1-4e7f5886d08b")
-	)
-	(wire
-		(pts
-			(xy 63.5 85.09) (xy 64.77 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4352783c-8f8a-4bae-a2df-8bb8be3a76b6")
 	)
 	(wire
 		(pts
@@ -3603,16 +3581,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 69.85) (xy 87.63 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edb2e962-833f-4156-b2a8-7e892d0f8e14")
-	)
-	(wire
-		(pts
 			(xy 67.31 40.64) (xy 58.42 40.64)
 		)
 		(stroke
@@ -4175,7 +4143,7 @@
 	)
 	(global_label "BMI088_ACCEL_INT"
 		(shape output)
-		(at 63.5 85.09 180)
+		(at 85.09 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4185,7 +4153,7 @@
 		)
 		(uuid "a7895371-d9d9-49da-a2d6-c87c196673d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.0916 85.09 0)
+			(at 70.6816 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5234,7 +5202,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "2.7k"
 			(at 240.284 33.782 90)
 			(effects
 				(font
@@ -7012,7 +6980,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "2.7k"
 			(at 181.61 36.322 90)
 			(effects
 				(font
