@@ -1261,130 +1261,6 @@
 				)
 			)
 		)
-		(symbol "EasyEDA:U.FL-R-SMT-1(10)"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "U.FL-R-SMT-1(10)"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA:ANT-SMD_UFL-R-SMT-1-10"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Connectors_HRS_U-FL-R-SMT-1-10_3310472210-IPE-XBoard-end-IPXConnector-SMD_C88373.html"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C88373"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "U.FL-R-SMT-1(10)_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 90)
-					(length 5.08)
-					(name "SIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "RF:SX1262IMLTRT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1918,6 +1794,367 @@
 				)
 			)
 		)
+		(symbol "SMA_Connector:RF2-04A-T-00-50-G"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J3"
+				(at 13.97 1.2701 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "RF2-04A-T-00-50-G"
+				(at 13.97 -1.2699 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SMA_connector:CONN_RF2-04A-T-00-50-G_ADM"
+				(at 0 10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "RF2-04A-T-00-50-G"
+				(at -7.874 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "RF2-04A-T-00-50-G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CONN_RF2-04A-T-00-50-G_ADM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RF2-04A-T-00-50-G_1_1"
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 12.7 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -2.54) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -7.62 90)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -7.62 90)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 7.62 270)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 7.62 270)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RF2-04A-T-00-50-G_1_2"
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 12.7 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -2.54) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -2202,10 +2439,10 @@
 		(uuid "7169521d-d5fa-49e9-abd4-191aefb378ea")
 	)
 	(junction
-		(at 153.67 255.27)
+		(at 152.4 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7fd2ca8f-530e-4513-ad9a-75caf854d50e")
+		(uuid "8d272bd6-410d-4530-a916-a0fece75e262")
 	)
 	(junction
 		(at 97.79 242.57)
@@ -2218,6 +2455,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0826e12-4cfd-4652-ae4a-9fd85633d61b")
+	)
+	(junction
+		(at 133.35 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5be2144-ee60-41d1-951c-484d32fff3df")
 	)
 	(junction
 		(at 67.31 262.89)
@@ -2244,6 +2487,12 @@
 		(uuid "eb2df3b7-31af-4036-9639-1a88603e8f13")
 	)
 	(junction
+		(at 133.35 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f35dec62-bc41-48d6-9018-a8f8d982aee7")
+	)
+	(junction
 		(at 97.79 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2267,7 +2516,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 255.27) (xy 153.67 255.27)
+			(xy 128.27 250.19) (xy 133.35 250.19)
 		)
 		(stroke
 			(width 0)
@@ -2497,6 +2746,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 234.95) (xy 128.27 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b12cdf-b92f-44d6-a986-c83c57469097")
+	)
+	(wire
+		(pts
 			(xy 66.04 172.72) (xy 66.04 168.91)
 		)
 		(stroke
@@ -2524,6 +2783,16 @@
 			(type default)
 		)
 		(uuid "3a53031b-04fc-45b8-99bc-dba884ad33ff")
+	)
+	(wire
+		(pts
+			(xy 133.35 250.19) (xy 152.4 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f632469-3c9e-4c61-a051-d7a520db4cd2")
 	)
 	(wire
 		(pts
@@ -2617,7 +2886,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 229.87) (xy 153.67 255.27)
+			(xy 152.4 234.95) (xy 152.4 250.19)
 		)
 		(stroke
 			(width 0)
@@ -2647,7 +2916,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 229.87) (xy 129.54 229.87)
+			(xy 152.4 234.95) (xy 133.35 234.95)
 		)
 		(stroke
 			(width 0)
@@ -3297,7 +3566,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 255.27) (xy 153.67 259.08)
+			(xy 152.4 250.19) (xy 152.4 251.46)
 		)
 		(stroke
 			(width 0)
@@ -3904,7 +4173,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 259.08 0)
+		(at 152.4 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3913,7 +4182,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d67bf65-8d21-45bf-84fc-3e52d8ca2225")
 		(property "Reference" "#PWR079"
-			(at 153.67 265.43 0)
+			(at 152.4 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +4191,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 264.16 0)
+			(at 152.4 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,7 +4199,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 259.08 0)
+			(at 152.4 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3939,7 +4208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 259.08 0)
+			(at 152.4 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3948,7 +4217,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 259.08 0)
+			(at 152.4 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,88 +5672,6 @@
 			(project "FlightCom"
 				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74/7ccf3189-8e25-4182-8eb9-169fe0909fd2"
 					(reference "C50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:U.FL-R-SMT-1(10)")
-		(at 127 242.57 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "669c1768-9533-4520-9377-11642450d76b")
-		(property "Reference" "JP1"
-			(at 133.35 241.2999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "U.FL-R-SMT-1(10)"
-			(at 133.35 243.8399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EasyEDA:ANT-SMD_UFL-R-SMT-1-10"
-			(at 114.3 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Connectors_HRS_U-FL-R-SMT-1-10_3310472210-IPE-XBoard-end-IPXConnector-SMD_C88373.html"
-			(at 111.76 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C88373"
-			(at 109.22 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f0d7fbc-f869-4aa1-bb8f-2904ee0d9b6a")
-		)
-		(pin "2"
-			(uuid "cdf757a1-79d0-48e8-a805-f871b8e081db")
-		)
-		(pin "3"
-			(uuid "ef5ff845-42ec-4ae5-87cc-67347bc0e300")
-		)
-		(instances
-			(project "FlightCom"
-				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74/7ccf3189-8e25-4182-8eb9-169fe0909fd2"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -8188,6 +8375,87 @@
 			(project "FlightCom"
 				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74/7ccf3189-8e25-4182-8eb9-169fe0909fd2"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SMA_Connector:RF2-04A-T-00-50-G")
+		(at 121.92 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd8fe007-5c4c-44d3-ace3-783495b6410a")
+		(property "Reference" "J3"
+			(at 135.89 241.2999 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RF2-04A-T-00-50-G"
+			(at 135.89 243.8399 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMA_connector:CONN_RF2-04A-T-00-50-G_ADM"
+			(at 121.92 231.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RF2-04A-T-00-50-G"
+			(at 114.046 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59348bb3-f2ba-4704-a910-2c8ded5a1a16")
+		)
+		(pin "2"
+			(uuid "f68eb69b-8cb8-4d45-a017-813acbf43510")
+		)
+		(pin "4"
+			(uuid "6b6a2445-7b4c-42d7-ab9b-d635bd65746a")
+		)
+		(pin "5"
+			(uuid "d8c745b4-8ac2-4a50-aae9-39997c92416b")
+		)
+		(pin "3"
+			(uuid "6cf78a82-27b9-43e8-9b04-37ffb41bc785")
+		)
+		(instances
+			(project ""
+				(path "/f49728bb-5f62-4190-bb7d-54bb4c159a74/7ccf3189-8e25-4182-8eb9-169fe0909fd2"
+					(reference "J3")
 					(unit 1)
 				)
 			)
