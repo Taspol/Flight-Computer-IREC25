@@ -5364,8 +5364,8 @@
 					)
 				)
 				(rectangle
-					(start 4.8345 -0.8906)
-					(end 5.588 0.889)
+					(start 4.8345 0.889)
+					(end 5.588 -0.8906)
 					(stroke
 						(width 0.1)
 						(type default)
@@ -5523,7 +5523,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 7.62 270)
+					(at 10.16 5.08 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -5541,7 +5541,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 7.62 270)
+					(at 5.08 5.08 0)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -5587,6 +5587,26 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SI7232DN-T1-GE3_1_0"
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -10160,6 +10180,12 @@
 		(uuid "648f203b-90dc-4961-8b60-2be7cb9813af")
 	)
 	(junction
+		(at 134.62 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c0cce37-7d53-4bff-8084-22cf8283b3da")
+	)
+	(junction
 		(at 254 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10510,10 +10536,6 @@
 		(uuid "b37620c1-6e30-4e91-83e9-83a7a53db211")
 	)
 	(no_connect
-		(at 134.62 142.24)
-		(uuid "c3acd87d-0eaf-4e34-95d4-15ca3dd61b8c")
-	)
-	(no_connect
 		(at 269.24 72.39)
 		(uuid "c3bf73b3-eed2-445e-932d-a1b3b938e5a4")
 	)
@@ -10560,6 +10582,16 @@
 			(type default)
 		)
 		(uuid "021d7677-36a9-4392-a64c-534b01f4e99f")
+	)
+	(wire
+		(pts
+			(xy 134.62 142.24) (xy 137.16 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042e1678-9ea8-4977-890b-0fd85a57dc0b")
 	)
 	(wire
 		(pts
@@ -11330,6 +11362,16 @@
 			(type default)
 		)
 		(uuid "45ebd9d6-1424-4efa-8ce5-4dc9331c3d3a")
+	)
+	(wire
+		(pts
+			(xy 137.16 142.24) (xy 137.16 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "468038a3-3c01-4a05-b888-f2c69a0a53a8")
 	)
 	(wire
 		(pts
@@ -12523,6 +12565,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 144.78) (xy 132.08 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad119d98-e555-4830-b848-fb70308548b1")
+	)
+	(wire
+		(pts
 			(xy 73.66 101.6) (xy 71.12 101.6)
 		)
 		(stroke
@@ -13030,6 +13082,16 @@
 			(type default)
 		)
 		(uuid "dd11a289-7289-4300-b3e9-d89d3570fe39")
+	)
+	(wire
+		(pts
+			(xy 132.08 142.24) (xy 134.62 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de5767f2-16b3-4357-82a8-e626eb2ed22c")
 	)
 	(wire
 		(pts
@@ -16912,6 +16974,9 @@
 		)
 		(pin "9"
 			(uuid "94f36c9a-4b9d-4bde-88e3-840a22056c23")
+		)
+		(pin "10"
+			(uuid "7f0a6f91-ad48-4eb1-a737-8d5c16a38c14")
 		)
 		(instances
 			(project "FlightCom"
