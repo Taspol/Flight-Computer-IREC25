@@ -19102,7 +19102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PS1440P02BT:BUZZER_PS1440P02BT"
+		(property "Footprint" "Buzzer:BUZZER_PS1440P02BT"
 			(at 166.37 146.05 0)
 			(effects
 				(font
