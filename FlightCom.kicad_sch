@@ -10450,6 +10450,12 @@
 		(uuid "3dc154f6-d67f-4756-9cb0-2d1b13a064eb")
 	)
 	(junction
+		(at 19.05 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "440c6e5d-4a76-4c48-9bc4-ccde99ab5abe")
+	)
+	(junction
 		(at 149.86 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10706,6 +10712,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb05df66-bb3f-4b38-a528-4cdffaf18fc2")
+	)
+	(junction
+		(at 27.94 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfc5e926-0c78-47ac-abb5-68b3f6e0d6b8")
 	)
 	(junction
 		(at 96.52 24.13)
@@ -11641,7 +11653,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 121.92) (xy 39.37 121.92)
+			(xy 27.94 123.19) (xy 39.37 123.19)
 		)
 		(stroke
 			(width 0)
@@ -12208,6 +12220,16 @@
 			(type default)
 		)
 		(uuid "6cbc4c44-e622-495e-aadf-f8536e99a697")
+	)
+	(wire
+		(pts
+			(xy 19.05 123.19) (xy 27.94 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d579812-4d05-49dc-b6e1-a57d0509c89c")
 	)
 	(wire
 		(pts
@@ -13748,16 +13770,6 @@
 			(type default)
 		)
 		(uuid "fd163aa9-dc87-470f-adbc-5dab53f4df14")
-	)
-	(wire
-		(pts
-			(xy 27.94 121.92) (xy 27.94 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fffb7bde-9117-4b96-b7d5-f4b15dc5a4ad")
 	)
 	(rectangle
 		(start 68.58 87.63)
@@ -15774,7 +15786,7 @@
 	)
 	(global_label "VREF+"
 		(shape passive)
-		(at 39.37 121.92 0)
+		(at 39.37 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15784,7 +15796,7 @@
 		)
 		(uuid "cc0c2657-fac2-4eb1-81b9-4ab57eeb04b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.4125 121.92 0)
+			(at 47.4125 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17761,7 +17773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 193.04 41.91 0)
 			(effects
 				(font
@@ -17892,7 +17904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 193.04 46.99 0)
 			(effects
 				(font
@@ -19760,7 +19772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 193.04 31.75 0)
 			(effects
 				(font
@@ -23787,7 +23799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 193.04 36.83 0)
 			(effects
 				(font
